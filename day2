@@ -1,0 +1,7 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("haloo");
+        System.out.print("mama");
+        System.out.printf("Nama : %s, Nilai : %.2f%n", "maryam", 95.68);
+    }
+}
