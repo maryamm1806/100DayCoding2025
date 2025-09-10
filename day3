@@ -1,0 +1,9 @@
+public class Main {
+    public static void main(String[] args) {
+        String nama = "maryam"; //       menyimpan teks nama
+        String pesan = " haloooo " + nama;  // menggabungkan teks
+
+        System.out.println(pesan);  // mencetak 
+
+   }
+}
