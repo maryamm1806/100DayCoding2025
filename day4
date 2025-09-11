@@ -1,0 +1,8 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Halo\nDunia");  //  \n membuat baris baru
+        System.out.println("Nama:\tMaryam"); // \t membuat spasi tab
+        System.out.println("dia menyapa: \"haiiiiiii!\"");    // \" membuat tanda kutip
+        System.out.println("heloo\b");  // menghapus satu karakter
+   }
+}
