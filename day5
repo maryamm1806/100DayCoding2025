@@ -1,0 +1,14 @@
+public class Day5 {
+    public static void main(String[] args) {
+        
+        byte umurAnak = 7;
+        short jumlahPenduduk = 32000;
+        int totalPengunjung = 2500000;
+        long luasWilayah = 9876543210L;
+
+        System.out.println("umur anak: " + umurAnak);
+        System.out.println("jumlah penduduk: " + jumlahPenduduk);
+        System.out.println("total pengunjung: " + totalPengunjung);
+        System.out.println("luas wilayah (m2): " + luasWilayah);
+    }
+}
