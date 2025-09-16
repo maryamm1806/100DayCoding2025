@@ -1,0 +1,12 @@
+public class Main {
+    public static void main(String[] args) {
+        // Deklarasi variabel (hanya menyebutkan tipe dan nama)
+        int umur;
+        // Inisialisasi variabel (memberi nilai awal)
+        umur = 17;
+        // Update variabel (mengubah nilainya)
+        umur = 18;
+        // Tampilkan hasil
+        System.out.println("Umur sekarang: " + umur);
+    }
+}
