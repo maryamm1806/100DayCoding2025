@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         
-        // konstanta adalah variabel yang nilainya tetap (tidak bisa diubah)
+        // constanta adalah variabel yang nilainya tetap (tidak bisa diubah)
 
         final String NAMA = "Maryam"; // contoh konstanta
         System.out.println("halo nama saya : " + NAMA);
