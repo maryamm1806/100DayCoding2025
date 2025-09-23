@@ -1,0 +1,12 @@
+public class Main {
+    public static void main(String[] args) {
+       int a = 15;
+       int b = 3;
+
+       int hasilKali = a * b;
+       int hasilBagi = a / b;
+
+        System.out.println("hasil kali : " + hasilKali);
+        System.out.println("hasil bagi : " + hasilBagi);
+    }
+}
