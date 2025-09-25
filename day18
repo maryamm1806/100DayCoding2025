@@ -1,0 +1,9 @@
+public class day18 {
+    public static void main(String[] args) {
+        int angkaInt = 50;
+        double angkaDouble = angkaInt;
+
+        System.out.println("nilai int : " + angkaInt);
+        System.out.println("nilai double : " + angkaDouble);
+    }
+}
