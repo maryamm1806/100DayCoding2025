@@ -1,0 +1,12 @@
+public class day20 {
+    public static void main(String[] args) {
+        int angka = 123;
+        String a = String.valueOf(angka);
+        String b = Integer.toString(angka);
+        String c =angka + "";
+
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+    }
+}
