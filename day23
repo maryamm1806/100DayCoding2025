@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class day23 {
+    public static void main(String[] args) {
+        Scanner input =  new Scanner(System.in);
+
+        System.out.print("masukkan panjang : ");
+        double panjang = input.nextDouble();
+
+        System.out.print("masukkan lebar : ");
+        double lebar = input.nextDouble();
+        
+        double persegiPanjang = panjang * lebar;
+        System.out.print("luas persegi panjang : " + persegiPanjang);
+    }
+}
