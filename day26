@@ -1,0 +1,21 @@
+public class day26 {
+    public static void main(String[] args) {
+        int m = 9;
+        System.out.println("niali awal m =" + m);
+
+        m += 7;
+        System.out.println("setelah m += 7 : " + m);
+
+        m -= 4;
+        System.out.println("setelah m -= 4 : " + m);
+
+        m *= 5;
+        System.out.println("setelah m *= 5 : " + m);
+
+        m /= 3;
+        System.out.println("setelah m /= 3 : " + m);
+
+        m %= 6;
+        System.out.println("setelah m  %= 4 : " + m);
+    }
+}
