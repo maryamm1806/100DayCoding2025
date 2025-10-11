@@ -1,0 +1,27 @@
+public class day34 {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 5;
+        int c= 2;
+
+//        operator aritmatika
+        int hasil = (a + b) * c;
+        System.out.println("hasil aritmatika : " + hasil );
+
+//        operator perbandingan
+        boolean perbandingan = hasil > 20;
+        System.out.println("apakah hasil lebih besar dari 20 : " + perbandingan);
+
+//        operator logika
+        boolean logika = (a > b) && (b > c);
+        System.out.println("logika and : " + logika);
+
+//        operator penugasan
+        a += 5;
+        System.out.println("nilai a setelah penugasan : " + a);
+
+//        kombinasi
+        boolean kombinasi = ((a + b) > 10) || (hasil / c == 15 );
+        System.out.println("hasil kombinasi : " + kombinasi);
+    }
+}
