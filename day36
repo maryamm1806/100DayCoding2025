@@ -1,0 +1,19 @@
+public class day36 {
+    public static void main(String[] args) {
+        int nilai = 85;
+        char kelulusan;
+        if (nilai >= 60){
+            if(nilai >= 80 ){
+                kelulusan = 'A';
+
+            }else if (nilai >= 70){
+                kelulusan = 'B';
+            }else {
+                kelulusan = 'C';
+            }
+            System.out.println("selamat kamu lulus dengan nilai : " + kelulusan);
+        }else {
+            System.out.println("maaf kamu belum lulus ");
+        }
+    }
+}
