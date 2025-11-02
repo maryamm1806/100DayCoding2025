@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class day56 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+
+        int angka ;
+        do{
+            System.out.println("masukkan angka antara 1-10 : ");
+            angka = input.nextInt();
+
+        }while (angka < 1 || angka > 10);
+        System.out.println("angka yang kamu masukkan valid : " + angka);
+    }
+}
