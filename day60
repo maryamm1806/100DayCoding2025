@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class day60 {
+    public static void main(String[] args) {
+        Scanner input  = new Scanner(System.in);
+
+        System.out.print("masukkan nilai n : ");
+        int n = input.nextInt();
+
+        System.out.print("masukkan nilai kelipatan : ");
+        int m = input.nextInt();
+
+        System.out.println("\nbilangan kelipatan " + m + " dari 1 sampai " + n + ":");
+        for (int i = 1; i <= n; i++) {
+            if (i % m == 0) {
+                System.out.println(i + " ");
+            }
+
+        }
+    }
+}
