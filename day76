@@ -1,0 +1,11 @@
+public class day76 {
+    public static void main(String[] args) {
+        String a = "Maryam";
+        String b = "maryam";
+
+        System.out.println("equals()          : " + a.equals(b));
+        System.out.println("equalsIgnoreCase(): " + a.equalsIgnoreCase(b));
+        System.out.println("contains()        : " + a.contains("ya"));
+        System.out.println("isEmpty()         : " + a.isEmpty());
+    }
+}
