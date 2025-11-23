@@ -1,0 +1,17 @@
+public class day77 {
+    public static void main(String[] args) {
+        String teks = " Halo Maryam  ";
+
+        String tanpaSpasi = teks.trim();
+
+        String ambilHalo = tanpaSpasi.substring(0, 4);  // "Halo"
+
+        String gantiNama = tanpaSpasi.replace("Maryam", "Iyang");
+
+        System.out.println("Teks asli         : \"" + teks + "\"");
+        System.out.println("Setelah trim()    : \"" + tanpaSpasi + "\"");
+        System.out.println("substring(0,4)    : " + ambilHalo);
+        System.out.println("replace()         : " + gantiNama);
+    }
+
+}
