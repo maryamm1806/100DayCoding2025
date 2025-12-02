@@ -1,0 +1,16 @@
+public class day86 {
+    public static void main(String[] args) {
+        int[] data = {12, 5, 7, 3, 9, 15, 2};
+
+        int min = data[0];
+
+        for (int i = 1; i < data.length; i++) {
+            if (data[i] < min) {
+                min = data[i];
+            }
+        }
+
+        System.out.println("Angka minimal dari array adalah: " + min);
+
+    }
+}
