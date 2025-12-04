@@ -1,0 +1,59 @@
+-- soal1
+import java.util.Scanner;
+
+public class mmmm {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        int a = input.nextInt();
+        int b = input.nextInt();
+        int c=0;
+        if(a>=b){
+            c=a+b;
+            if(c %3 ==0){
+                for (int i = 1; i <= c; i++) {
+                    for (int j = 1; j <= i; j++) {
+                        System.out.print("* ");
+                    }
+                    System.out.println();
+                }
+            }else{
+                System.out.println(c);
+            }
+        }else {
+            c = a * b;
+            if (c % 2 == 0) {
+                for (int i = 1; i <= c; i++) {
+                    for (int j = 1; j <= c; j++) {
+                        System.out.print(" * ");
+                    }
+                    System.out.println();
+                }
+            } else {
+                System.out.println(c);
+            }
+        }
+    }
+}
+
+--- soal2
+import java.util.Scanner;
+
+public class pppp {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("masukkan C : ");
+        String c = input.nextLine();
+        System.out.println("masukkan angka1 :");
+        String angka1 = input.nextLine();
+        System.out.println("masukkan angka2 : ");
+        String angka2 = input.nextLine();
+
+        String path = c.toLowerCase() + ":\\" + angka1 + "\\" + angka2;
+        System.out.println("output: " + path);
+
+    }
+}
+
+
