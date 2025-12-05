@@ -1,0 +1,9 @@
+public class day89 {
+    static void maryam() {
+        System.out.println("halo maryam ");
+
+    }
+    public static void main(String[] args) {
+        maryam();
+    }
+}
