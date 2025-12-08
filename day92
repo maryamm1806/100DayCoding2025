@@ -1,0 +1,9 @@
+public class day92 {
+    static int hitungluas (int sisi){
+        return sisi * sisi;
+    }
+    public static void main(String[] args) {
+        int hasil = hitungluas(5);
+        System.out.println(" luas persegi : " + hasil);
+    }
+}
