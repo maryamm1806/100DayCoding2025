@@ -1,0 +1,11 @@
+public class day95 {
+    static void cetak(String nama){
+        System.out.println("haiii " + nama);
+    }
+
+    public static void main(String[] args) {
+        cetak("maryam");
+        cetak("lisa");
+        cetak("lili");
+    }
+}
